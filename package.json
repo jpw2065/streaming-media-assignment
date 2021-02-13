@@ -1,0 +1,30 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Streaming Media Assignment for rich media 2",
+  "main": "./src/server.js",
+  "engines": {
+    "node": "14.15.4",
+    "npm": "6.14.x"
+  },
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"No Tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpw2065/streaming-media-assignment.git"
+  },
+  "author": "Jack Watson",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jpw2065/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/jpw2065/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
