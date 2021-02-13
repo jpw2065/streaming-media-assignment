@@ -22,7 +22,6 @@ const getPage3 = (request, response) => {
   response.end();
 };
 
-
 module.exports.getIndex = getIndex;
 module.exports.getPage2 = getPage2;
 module.exports.getPage3 = getPage3;
